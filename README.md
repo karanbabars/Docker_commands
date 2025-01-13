@@ -23,5 +23,5 @@ docker diff cont_name
 To create image from container.
 docker commit <container_name_or_id> <new_image_name>:<tag>.
 
-
+.
 
