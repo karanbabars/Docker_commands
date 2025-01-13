@@ -13,3 +13,15 @@ systemctl enable docker -if we enable service if we stopping instance also we st
 systemctl start docker
 
 systemctl status docker
+
+To create container and give name:
+docker run -it --name cont_name ubuntu /bin/bash.
+
+difference between base image and changes on it then
+docker diff cont_name
+
+To create image from container.
+docker commit <container_name_or_id> <new_image_name>:<tag>.
+
+
+
